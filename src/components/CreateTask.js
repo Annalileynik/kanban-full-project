@@ -10,7 +10,6 @@ function CreateTask(props) {
         setNewPriority(props.priorities[0])
         setNewStatus("todo")
     }
-
     const [newTitle, setNewTitle] = useState('')
     const [newDescription, setNewDescription] = useState('')
     const [newStatus, setNewStatus] = useState("todo")
@@ -30,7 +29,6 @@ function CreateTask(props) {
     return (
         <div>
             <button className="btn btn-outline-success"
-
                 onClick={toggle}> Create Task </button>
 
             <Modal isOpen={modal} toggle={toggle} {...props}>

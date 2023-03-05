@@ -7,8 +7,6 @@ function DeleteTask(props) {
 props.toggle()
 props.onDeleteTask(props.task._id)
     }
-
-
     return (
         <div>
             <Modal isOpen={props.modal} toggle={props.toggle} {...props}>

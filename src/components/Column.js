@@ -21,7 +21,6 @@ const Column = ({onMoveTask, status,tasks,onChangePriority,priorities, onDeleteT
                 statuses={statuses}
                 editTask={editTask}
                 onMoveTask={onMoveTask}
-
                 />
                 )}
 
