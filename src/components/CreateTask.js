@@ -8,12 +8,12 @@ function CreateTask(props) {
         setNewDescription('')
         setNewTitle('')
         setNewPriority(props.priorities[0])
-        setNewStatus("props.statuses[0].title")
+        setNewStatus("todo")
     }
 
     const [newTitle, setNewTitle] = useState('')
     const [newDescription, setNewDescription] = useState('')
-    const [newStatus, setNewStatus] = useState("props.statuses[0].title")
+    const [newStatus, setNewStatus] = useState("todo")
     const [newPriority, setNewPriority] = useState(props.priorities[0])
 
     const onCreateTask = () => {

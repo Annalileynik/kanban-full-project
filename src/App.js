@@ -31,7 +31,6 @@ function App() {
             .catch((err) =>
                 alert("Site does not work"))
     }
-
     useEffect(() => {
         getTasks()
     }, [])
